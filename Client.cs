@@ -44,31 +44,15 @@ class Client
         if(compte==0){
             Console.WriteLine("Tens la compte a 0 xD.");
         }
-        else if(compte+comissio>=0+dinersARestar){
-            compte-=comissio;
-            compte-=dinersARestar;
+        else if(dinersARestar+comissio>compte){
+            Console.WriteLine("No tens suficient saldo! Recorda que has de poder treure els diners un cop feta la comissió.");
         }
         else{
-            Console.WriteLine("No tens suficient saldo! Recorda que has de poder treure els diners un cop feta la comissió.");
+            compte-=comissio + dinersARestar;
+            Console.WriteLine("Diners retirats correctament.");
         }
     }
     public void quantsDiners(){
         Console.WriteLine(compte);
     }
 }
-
-public string TreureDiners(string nomClient, int quantitat)
-    {
-        if (clients.ContainsKey(nomClient))
-        {
-            var client = clients[nomClient];
-            var comissio = quantitat / 100;
-            if (quantitat + comissio > client.Saldo)
-            {
-                return $"No tens {quantitat+comissio} ouros prou diners";
-            }
-            client.Saldo -= quantitat + comissio;
-            return $"Té {quantitat} euros et queden {client.Saldo}";
-        }
-        return $"Tu no ets client {nomClient}";
-    }
