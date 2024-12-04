@@ -4,7 +4,7 @@ namespace Banquer;
 
 class Client
 {
-    private string nom = "";
+    private string nom;
     private int compte = 0;
 
     public Client()
