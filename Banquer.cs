@@ -55,7 +55,7 @@ class Banquer
         }
     }
     public void OperarClient(){
-
+        
         Console.WriteLine("----------------------------------------");
         if(clients.Count == 0){
             Console.WriteLine("No hi ha clients per fer operacions.");
