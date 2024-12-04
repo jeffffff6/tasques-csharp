@@ -13,6 +13,7 @@ class Program
         bool aplicacio = true;
         Console.WriteLine("");
         menu();
+        Console.WriteLine("----------------------------------------");
         while(aplicacio){
             
             Console.WriteLine("Selecciona una opció del menú:");
@@ -28,7 +29,7 @@ class Program
                     break;
 
                 case 'c':
-                    //OperarClient(ref clients);
+                    OperarClient(ref clients);
                     break;
 
                 case 'd':
@@ -54,7 +55,6 @@ class Program
         Console.WriteLine("c. Operar client");
         Console.WriteLine("d. Tancar aplicacio");
         Console.WriteLine("m. Mostrar menu");
-        Console.WriteLine("----------------------------------------");
     }
     static void CrearClient(ref List<Client> clients)
     {
@@ -101,6 +101,44 @@ class Program
                 }
             }
 
+            if (!clientTrobat)
+            {
+                Console.WriteLine("El client no existeix.");
+            }
+        }
+    }
+    static void OperarClient(ref List<Client> clients){
+
+        Console.WriteLine("----------------------------------------");
+        if(clients.Count == 0){
+            Console.WriteLine("No hi ha clients per fer operacions.");
+        }
+        else{
+            Console.WriteLine("Nom del client a operar: ");
+            string nom = Console.ReadLine();
+            bool clientTrobat = false;
+
+            foreach(Client client in clients){
+                if(client.Nom == nom){
+                    clientTrobat = true;
+                    Console.WriteLine($"Ets en {client.Nom}: ");
+                    Console.WriteLine($"a. Afegir diners.");
+                    Console.WriteLine($"b. Treure diners.");
+                    char opcio = Console.ReadLine()?.FirstOrDefault() ?? '\0';
+                    switch (opcio)
+                    {
+                        case 'a':
+                            client.posarDiners();
+                            break;
+                        case 'b':
+                            client.treureDiners();
+                            break;
+                        default:
+                            Console.WriteLine("Opció no válida. Si us plau, selecciona una opció válida.");
+                            break;
+                    }
+                }
+            }
             if (!clientTrobat)
             {
                 Console.WriteLine("El client no existeix.");

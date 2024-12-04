@@ -1,3 +1,5 @@
+using System.Formats.Asn1;
+
 namespace Banquer;
 
 class Client
@@ -40,7 +42,10 @@ class Client
     public void treureDiners(){
         Console.WriteLine("Quants diners vols treure?");
         int dinersARestar = int.Parse(Console.ReadLine());
-        if(compte>0+dinersARestar){
+        if(compte==0){
+            Console.WriteLine("Tens la compte a 0 xD.");
+        }
+        else if(compte>=0+dinersARestar){
             compte-=dinersARestar;
         }
         else{
