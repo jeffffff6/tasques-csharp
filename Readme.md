@@ -1,6 +1,6 @@
 # Objectius: Introducció a la programació orientada a objectes
 
-Necessita un programa d’ordinador
+El banquer necessita un programa d’ordinador
 
 # Activitat
 
