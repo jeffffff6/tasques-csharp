@@ -1,0 +1,29 @@
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\bin\Debug\net9.0\Banquer.exe
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\bin\Debug\net9.0\Banquer.deps.json
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\bin\Debug\net9.0\Banquer.runtimeconfig.json
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\bin\Debug\net9.0\Banquer.dll
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\bin\Debug\net9.0\Banquer.pdb
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\obj\Debug\net9.0\Banquer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\obj\Debug\net9.0\Banquer.AssemblyInfoInputs.cache
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\obj\Debug\net9.0\Banquer.AssemblyInfo.cs
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\obj\Debug\net9.0\Banquer.csproj.CoreCompileInputs.cache
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\obj\Debug\net9.0\Banquer.dll
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\obj\Debug\net9.0\refint\Banquer.dll
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\obj\Debug\net9.0\Banquer.pdb
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\obj\Debug\net9.0\Banquer.genruntimeconfig.cache
+C:\Users\Youssef\Desktop\Practicando\tasques\banquer\obj\Debug\net9.0\ref\Banquer.dll
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\bin\Debug\net9.0\Banquer.exe
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\bin\Debug\net9.0\Banquer.deps.json
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\bin\Debug\net9.0\Banquer.runtimeconfig.json
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\bin\Debug\net9.0\Banquer.dll
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\bin\Debug\net9.0\Banquer.pdb
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\Banquer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\Banquer.AssemblyInfoInputs.cache
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\Banquer.AssemblyInfo.cs
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\Banquer.csproj.CoreCompileInputs.cache
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\Banquer.sourcelink.json
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\Banquer.dll
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\refint\Banquer.dll
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\Banquer.pdb
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\Banquer.genruntimeconfig.cache
+C:\Users\Youssef\Desktop\Practicando\tasques c#\banquer\obj\Debug\net9.0\ref\Banquer.dll
